@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg.png) repeat-x #eaebec;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #7b7d7e;
+}
+a { 
+	color: #c6c6c8;
+	text-decoration: none;
+}
+a: hover {
+	color: #c6c6c8;
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+#header-container {
+	width: 100%;
+	min-width: 950px;
+	}
+#main-container {
+	height: 278px;
+	background: url(../images/mainbg.png);
+	width: 100%;
+	min-width: 950px;
+}
+#main {
+	width: 950px;
+	margin: auto;
+	padding-top: 36px;
+	position: relative;
+}
+#header {
+ 	width: 950px;
+    margin: auto;
+    height: 164px;
+	position: relative;
+}
+#logo {
+	top: 58px;
+	width: 373px;
+	position: absolute;
+}
+#logo-governo {
+	margin-top: 117px;
+	float: right;
+}
+#tela-login {
+	height: 205px;
+	width: 354px;
+	background: url(../images/tela-login.png);
+	float: left;
+}
+#tela-login-left {
+	width: 149px;
+	height: 154px;
+	margin-left: 18px;
+	margin-top: 10px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+#tela-login-left h1 {
+	font-size: 12px;
+	margin: 0 0 5px 0;
+}
+#tela-login-left h2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 5px 0 0 0;
+}
+#tela-login-left input[type='text'] {
+	margin: 2px 0;
+	background: #b1d458;
+	border: 1px #ddddde;
+	width: 135px;
+	height: 15px;
+	color: #FFF;
+}
+#tela-login-left input[type='button'] {
+	background:url(../images/botao.png);
+	width: 86px;
+	height: 29px;
+	border: 0px;
+	margin: 5px auto auto 25px;
+	cursor: pointer;
+}
+#tela-login-left img .left {
+	margin-right: 5px;
+}
+#tela-login-right {
+	width: 140px;
+	height: 124px;
+	margin: 10px 17px auto auto;
+	float: right;
+	padding: 40px 10px 0 10px;
+}
+#tela-login-right h2 {
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+}
+#tela-login-right input[type='button'] {
+	background:url(../images/botao.png);
+	width: 86px;
+	height: 29px;
+	border: 0px;
+	margin: 10px auto auto 25px;
+	cursor: pointer;
+}
+#tela-menu {
+	margin-left: 212px;
+	height: 209px;
+	width: 354px;
+	background: url(../images/tela-menu.png);
+	float: left;
+}
+#tela-menu-content {
+	margin: 10px auto 18px auto;
+	width: 309px;
+	height: 154px;
+	padding: 10px 0 0 10px;
+}
+#tela-menu-content h1 {
+	color: #c5df85;
+	font-size: 12px;
+}
+#tela-menu-content a {
+	color: #7b7d7e;
+	font-size: 12px;
+}
+
+#tela-menu-content ul {
+	list-style: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+#tela-menu-content li {
+	margin: 0;
+	font-size: 12px;
+	vertical-align: middle;
+	padding: 0 0 10px 0;
+}
+#professora {
+	position: absolute;
+	left: 317px;
+}
+#balao {
+	position: absolute;
+	left: 506px;
+	top: 103px;
+	background: url(../images/balao.png);
+	width: 157px;
+	height: 93px;
+}
+
+#balao-content {
+	margin: 17px auto auto 23px;
+	width: 110px;
+	height: 50px;
+	padding: 0px;
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;	
+}
+#footer-container {
+	width: 100%;
+	margin: auto;
+	min-width: 950px;
+	position: relative;  
+}
+#footer {
+	width: 950px;
+	margin: auto;
+	font-size: 12px;
+	text-align: right;
+	padding-top: 10px;
+	position: relative;
+}
+#header-container-tela {
+	width: 100%;
+	min-width: 950px;
+	background-image: url(../images/bgheader.png);
+}
+#header-tela {
+ 	width: 950px;
+    margin: auto;
+    height: 60px;
+	position: relative;
+}
+#main-container-tela {
+	width: 100%;
+	min-width: 950px;
+}
+#logo-tela {
+	margin-top: 5px;
+	margin-right: 10px;
+	float: left;
+}
+#logo-governo-tela {
+	margin-top: 10px;
+	float: left;
+}
+#login-container {
+	float: right;
+	margin-top: 15px;
+}
+#login-container input[type="button"]{
+	background-color: #F00;
+	height: 30px;
+	width: 50px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 0px;
+	padding: 0px;
+	color: #FFF;
+	margin-left: 20px;
+}
+#main-tela {
+	width: 950px;
+	margin: auto;
+	padding-top: 36px;
+	position: relative;
+}
+#menu-tela {
+	float: right;
+}
+#menu-tela h1 {
+	font-size: 24px;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+#menu-tela h2 {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+#menu-tela h3 {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0 0 5px 0;
+}
+#menu-tela hr {
+	color: #e8e9ea;
+	margin-top: 10px;
+	height: 2px;
+	border: none;
+	border-top: solid 2px #e8e9ea;;
+}
+#container-menu-tela-texto {
+	margin: 20px auto;
+	text-align: center;
+}
+#menu-tela-azul {
+	background: url(../images/tela-azul.png);
+	width: 161px;
+	height: 93px;
+	float: left;
+}
+#menu-tela-verde {
+	background: url(../images/tela-verde.png);
+	width: 161px;
+height: 93px;
+	float: left;
+}
+#menu-tela-amarela {
+	background: url(../images/tela-amarela.png);
+	width: 161px;
+	height: 93px;
+	float: left;
+}
+#menu-tela-laranja {
+	background: url(../images/tela-laranja.png);
+	width: 161px;
+	height: 93px;
+	float: left;
+}
+#menu-tela-vermelha {
+	background: url(../images/tela-vermelha.png);
+	width: 161px;
+	height: 93px;
+	float: left;
+}
+#menu-tela-roxa {
+	background: url(../images/tela-roxa.png);
+	width: 161px;
+	height: 93px;
+	float: left;
+}
+#menu-tela-rosa {
+	background: url(../images/tela-roxa.png);
+	width: 116px;
+	height: 68px;
+	float: left;
+}
+#professora-tela {
+	float: left;
+	padding: 20px 0 0 60px;
+}
+#primeira-coluna-container {
+	width: 230px;
+	margin-right: 10px;
+	float: left;
+}
+#segunda-coluna-container {
+	width: 230px;
+	margin-right: 10px;
+	float: left;
+}
+#terceira-coluna-container {
+	width: 230px;
+	margin-right: 10px;
+	float: left;
+}
+#quarta-coluna-container {
+	width: 230px;
+	float: left;
+}
+#menu-container {
+	width: 230px;
+	height: 70px;
+	margin-bottom: 10px;
+}
+#icon {
+	float: left;
+	width: 70px;
+	height: 70px;
+	border: 0px;
+}
+#icon img {
+	border: 0px;
+}
+#text {
+	width: 150px;
+	float: right;
+	font-weight: bold;
+	color: #7b7d7e;
+	font-size: 12px;
+	padding-top: 23px;
+}
+#text a {
+	color: #7b7d7e;
+}
+#text a:hover {
+	color: #7b7d7e;
+}
